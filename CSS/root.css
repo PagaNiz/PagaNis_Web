@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('./header.css');
+@import url('./footer.css');
+
+:root{
+    /* Cores */
+    --cor-primaria: #DDE6ED;
+    --cor-secundaria: #9DB2BF;
+    --cor-hover: #526D82;
+    --cor-background: #27374D;
+    --cor-header: #0e141b;
+
+    /* Fontes */
+    --font-logo: 'Josefin Sans', sans-serif;
+    --font-texto: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-background);
+    color: var(--cor-primaria);
+    user-select: none;
+}

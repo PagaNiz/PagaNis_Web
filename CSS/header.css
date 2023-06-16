@@ -1,0 +1,74 @@
+header {
+    background-color: var(--cor-header);
+    display: flex;
+    padding: 0px 25px;
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    /* position: relative; */
+}
+
+.logo {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.side_menu {
+    position: relative;
+    max-width: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden{
+    display: none !important;
+    
+}
+
+.botao_menu {
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cabecalho_botoes {
+    background-color: var(--cor-header);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 25px; */
+    position: absolute;
+    padding: 15px 0;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.botoes {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    padding: 25px 10px;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+
+.botao_borda{
+    border-bottom: 1px solid var(--cor-background);
+}
+
+.botoes:hover {
+    background-color: var(--cor-hover);
+    transition: 0.5s;
+}
