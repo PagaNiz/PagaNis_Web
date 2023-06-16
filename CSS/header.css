@@ -26,11 +26,6 @@ header {
     justify-content: center;
 }
 
-.hidden{
-    display: none !important;
-    
-}
-
 .botao_menu {
     width: 32px;
     height: 32px;
@@ -41,18 +36,22 @@ header {
     cursor: pointer;
 }
 
+.hidden {
+    display: none !important;
+}
+
 .cabecalho_botoes {
     background-color: var(--cor-header);
     list-style: none;
     display: flex;
     flex-direction: column;
-    /* gap: 25px; */
     position: absolute;
     padding: 15px 0;
     top: 50px;
     width: 100%;
     align-items: center;
     border-radius: 12px;
+    height: 100px;
 }
 
 .botoes {
@@ -64,7 +63,7 @@ header {
     width: 50px;
 }
 
-.botao_borda{
+.botao_borda {
     border-bottom: 1px solid var(--cor-background);
 }
 
