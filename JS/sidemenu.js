@@ -1,6 +1,5 @@
-const menuAbrindo = document.getElementById('botao_menu');
-const menu = document.getElementById('cabecalho_botoes');
+const nav_menu = document.getElementById('nav_menu');
 
-menuAbrindo.addEventListener('click', ()=>{
-    menu.classList.toggle('hidden');
+nav_menu.addEventListener('click', ()=>{
+    nav_menu.classList.toggle('menu_appear');
 });
