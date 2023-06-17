@@ -1,4 +1,10 @@
 .rodape{
     display: flex;
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-header);
+}
+
+.footerp{
+    padding: 20px;
 }

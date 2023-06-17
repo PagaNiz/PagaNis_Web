@@ -37,13 +37,13 @@ header {
 }
 
 .hidden {
-    display: none !important;
+    display: flex !important;
 }
 
 .cabecalho_botoes {
     background-color: var(--cor-header);
     list-style: none;
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
     padding: 15px 0;
