@@ -3,27 +3,47 @@
 @import url('./footer.css');
 @import url('./main.css');
 
-:root{
+:root {
     /* Cores */
-    --cor-primaria: #DDE6ED;
-    --cor-secundaria: #9DB2BF;
-    --cor-hover: #526D82;
-    --cor-background: #27374D;
-    --cor-header: #0e141b;
+    --cor-primaria: #1282A2;
+    --cor-secundaria: #034078;
+    --cor-secundaria-dark: #033563;
+    --cor-complementar: #001F54;
+    --cor-complementar-2: #0A1128;
+    --cor-complementar-3: #74BAFB;
+    --cor-branco: #FEFCFB;
+    --cor-gelo: #FAFAFA;
+    --cor-cinza: #d6d6d6;
+    --cor-preta: #202020;
 
     /* Fontes */
     --font-logo: 'Josefin Sans', sans-serif;
     --font-texto: 'Montserrat', sans-serif;
+    --font-titulo: 'Krona One', sans-serif;
+
+    /* Tamanho Header */
+    --height-header: 85px;
+    /* Tamanho Footer */
+    --height-footer: 45px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     box-sizing: border-box;
-    background-color: var(--cor-background);
-    color: var(--cor-primaria);
+    background-color: var(--cor-gelo);
+    color: var(--cor-branco);
     user-select: none;
+    font-family: var(--font-texto)
+}
+
+.font_logo{
+    font-family: var(--font-logo);
+}
+
+.font_titulo{
+    font-family: var(--font-titulo);
 }

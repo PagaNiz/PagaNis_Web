@@ -1,14 +1,11 @@
 header {
-    background-color: var(--cor-header);
+    background-color: var(--cor-secundaria);
     display: flex;
     padding: 0px 25px;
-    height: 85px;
+    height: var(--height-header);
     justify-content: space-between;
     align-items: center;
-    border-radius: 10px;
-    margin: 10px;
-    border: 1px solid var(--cor-hover);
-    box-shadow: 25px 5px 10px #000000;
+    border: 1px solid var(--cor-secundaria-dark);
 }
 
 .logo {
@@ -30,7 +27,7 @@ header {
 .nav_menu {
     width: 32px;
     height: 32px;
-    border: 1px solid var(--cor-primaria);
+    border: 1px solid var(--cor-complementar-3);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -40,7 +37,7 @@ header {
 
 .icone_menu {
     width: 20px;
-    border-top: 2px solid var(--cor-primaria);
+    border-top: 2px solid var(--cor-complementar-3);
 }
 
 .icone_menu::before, .icone_menu::after {
@@ -48,7 +45,7 @@ header {
     display: block;
     height: 2px;
     width: 20px;
-    background: var(--cor-primaria);
+    background: var(--cor-complementar-3);
     margin-top: 5px;
     transition: .3s;
     position: relative;
@@ -71,7 +68,7 @@ header {
     height: 0;
     visibility: hidden;
     overflow-y: hidden;
-    background-color: var(--cor-header);
+    background-color: var(--cor-secundaria);
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -81,10 +78,8 @@ header {
     align-items: center;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    border-bottom: 1px solid var(--cor-hover);
-    border-left: 1px solid var(--cor-hover);
-    border-right: 1px solid var(--cor-hover);
     transition: .7s;
+    z-index: 1000;
 }
 
 #nav_menu.menu_appear .cabecalho_botoes {
@@ -94,7 +89,7 @@ header {
 
 .botoes {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-branco);
     padding: 25px 10px;
     display: flex;
     justify-content: center;
@@ -102,10 +97,10 @@ header {
 }
 
 .botao_borda {
-    border-bottom: 1px solid var(--cor-background);
+    border-bottom: 1px solid var(--cor-complementar-3);
 }
 
 .botoes:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--cor-secundaria-dark);
     transition: 0.5s;
 }
