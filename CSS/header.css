@@ -7,14 +7,6 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-family: var(--font-logo);
-    font-weight: 700;
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-}
-
 .side_menu {
     position: relative;
     max-width: 115px;
